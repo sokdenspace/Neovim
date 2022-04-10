@@ -1,3 +1,4 @@
+:syntax on
 :set number
 :set relativenumber
 :set autoindent
@@ -28,7 +29,13 @@ Plug 'https://github.com/terryma/vim-multiple-cursors' " CTRL + N for multiple c
 Plug 'https://github.com/kyazdani42/nvim-web-devicons' " Topbar icons
 Plug 'https://github.com/romgrk/barbar.nvim' " Topbar menu
 Plug 'https://github.com/Yggdroot/indentLine' " Indent line
-Plug 'https://github.com/preservim/tagbar.git' " Tagbar
+Plug 'https://github.com/preservim/tagbar' " Tagbar
+Plug 'https://github.com/honza/vim-snippets' " Snippets python, html, ...
+Plug 'https://github.com/flazz/vim-colorschemes' " Colorscheme
+Plug 'https://github.com/SirVer/ultisnips' " Snip text
+Plug 'https://github.com/farconics/victionary' " Dictionaries
+Plug 'https://github.com/vim-utils/vim-vertical-move' " Selections
+Plug 'https://github.com/preservim/nerdtree' " Nerd tree
 
 set encoding=UTF-8
 call plug#end()
